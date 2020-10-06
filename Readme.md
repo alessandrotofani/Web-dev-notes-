@@ -10,12 +10,12 @@ Andare all'indirizzo: la richiesta della pagina è inviata all'indirizzo Ip tram
 Risposta del server: il server cerca la pagina a cui siamo interessati. Costruisce il contenuto, a volte richiedendo info da database. Risponde con qualsiasi combinazione di HTML, CSS, Javascript. 
 
 
-*Frontend*: quello che vediamo e con cui interagiamo. Client side. html, css, javascript. 
-*Backend*: tutto il resto che accade. 
+**Frontend**: quello che vediamo e con cui interagiamo. Client side. html, css, javascript. 
+**Backend**: tutto il resto che accade. 
 
-*Html*: HyperText Markup Language. Definisce la struttura di una pagina web. Descrivo ciò che voglio. Scheletro della pagina. Es. metti immagine qui 
-*CSS*: Cascading Style Sheets. Definisce lo stile di Html. Es. tutto il testo rosa
-*Javascript*: aggiunge logica e interattività alla pagina. Può caricare dati. 
+**Html**: HyperText Markup Language. Definisce la struttura di una pagina web. Descrivo ciò che voglio. Scheletro della pagina. Es. metti immagine qui 
+**CSS**: Cascading Style Sheets. Definisce lo stile di Html. Es. tutto il testo rosa
+**Javascript**: aggiunge logica e interattività alla pagina. Può caricare dati. 
 
 
 Mdn mozzilla developer network
@@ -25,9 +25,9 @@ Mdn mozzilla developer network
 Regola generale:     <tagname> contenuto </tagname>
 
 Bisogna definire la struttura del documento. Questo passaggio può essere fatto molto semplicemente in Sublimetext scrivendo html e poi premendo Tab. 
-Posso commentare con *Ctrl + /*
+Posso commentare con **Ctrl + /**
 
 Bisogna mettere tutto dentro <html> <\html>
-*<head>*: tutto ciò che non si vede. Metadata
-*<body>*: contenuto della pagina 
+**<head>**: tutto ciò che non si vede. Metadata
+**<body>**: contenuto della pagina 
 
