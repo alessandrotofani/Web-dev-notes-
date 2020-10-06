@@ -1,6 +1,6 @@
 # Web developer notes 
 
-##Introduzione
+### Introduzione
 Ricerca di un sito: si fa una richiesta del contenuto tramite http. 
 Viaggio dell'informazione: User - internet providers - server - user
 Il server spacchetta il sito e lo invia in differenti pacchetti all' user. I pacchetti seguono strade diverse. Non interessano le diverse strade, ma che arrivino. 
@@ -20,7 +20,7 @@ Risposta del server: il server cerca la pagina a cui siamo interessati. Costruis
 
 Mdn mozzilla developer network
 
-##Html
+### Html
 
 Regola generale:     <tagname> contenuto </tagname>
 
