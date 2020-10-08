@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Form: container dove metto gli input -->
+	<title>Inputs: form demo</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<!-- action: url dove mando i dati -->
+<!-- method: quale metodo HTTP uso (get/post) -->
+<!-- In questo modo mando i dati (get) a wikipedia (action) -->
+<form action="http://wikipedia.org" method="GET">
+
+	<input type="text" placeholder="username">
+	<input type="password" placeholder="password">
+	<input type="Submit">
+</form>
+
+<!-- se aggiungo name agli input, i dati vengono aggiunti allo url. è una query string -->
+<!-- mando i dati a wikipedia, è sottinteso il metodo get -->
+<form  action="http://wikipedia.org">
+	<!-- primo modo di usare label -->
+	<label>
+		Username:
+		<!-- required per fare validation, deve essere inserito per forza -->
+		<input name="user" type="text" placeholder="username" required>
+	</label>
+	
+	<!-- secondo modo di usare label con for e id -->
+	<label for="password">Password</label>
+	<input id="password" name="pw" type="password" placeholder="password">
+
+	<input type="Submit">
+</form>
+
+</body>
+</html>

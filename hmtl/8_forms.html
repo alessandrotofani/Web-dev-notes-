@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Form: container dove metto gli input -->
+	<title>Inputs: form demo</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<!-- action: url dove mando i dati -->
+<!-- method: quale metodo HTTP uso (get/post) -->
+<!-- In questo modo mando i dati (get) a wikipedia (action) -->
+<!-- se aggiungo name agli input, i dati vengono aggiunti allo url. è una query string -->
+<!-- mando i dati a wikipedia, è sottinteso il metodo get -->
+<!-- required per fare validation, deve essere inserito per forza -->
+
+<form  action="http://wikipedia.org">
+	<label for="email">Email:</label>
+	<input id="email" name="email" type="email" placeholder="email" required>
+		
+	<label for="password">Password</label>
+	<input id="password" name="pw" type="password" placeholder="password" required>
+
+	<input type="Submit">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms assignment</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+
+	<!-- Text inputs(required) -->
+	<div>
+		<label for="user">First Name</label>
+		<input id="user" type="text" name="first_name" placeholder="John" required>
+
+		<label for="last">Last Name:</label>
+		<input name="last" type="text" name="last_name" placeholder="Smith" required>
+	</div>
+
+
+	<!-- RADIO -->
+	<!-- mettere lo stesso name per renderli esclusivi -->
+	<div>
+		<label for="male">Male</label>
+		<input id="male" type="radio" name="gender" value="Male">
+
+		<label for="female">Female</label>
+		<input id="female" type="radio" name="gender" value="Female">
+
+		<label for="other">Other</label>
+		<input id="other" type="radio" name="gender" value="Other">
+	</div>
+
+
+	<!-- Email inputs -->
+	<div>
+		<label for="email">Email</label>
+		<input id="email" type="email" name="email" required>
+
+		<!-- Password input -->
+		<label for="password">Password</label>
+		<input id="password" type="text" name="password" minlength="5" maxlength="10" required>
+	</div>
+
+
+	<!-- Menu a tendina -->
+	<div>
+		<label>Birthday</label>
+			<select>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+
+		<select>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+		</select>
+
+		<select>
+			<option>1996</option>
+			<option>1997</option>
+			<option>1998</option>
+		</select>
+	</div>
+
+
+	<!-- Terms and conditions checkbox -->
+	<label for="terms">I agree to the terms and conditions</label>
+	<input id="terms" type="checkbox" name="checkbox">
+
+
+	<!-- Submit button -->
+	<div>
+		<input type="Submit">
+	</div>
+</form>
+
+
+</body>
+</html>

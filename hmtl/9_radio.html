@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs: Radio</title>
+</head>
+<body>
+
+<p>Preferisci cani o gatti?</p>
+
+<form>
+
+	<!-- Quando faccio la scelta con il bottone radio, metto il value (DOGS) nella variabile name (petchoice) -->
+	<label for="dogs">Dogs:</label>
+	<input id="dogs" type="radio" name="petchoice"  value="DOGS">
+
+	<label for="cats">Cats:</label>
+	<input id="cats" type="radio" name="petchoice" value="CATS">
+
+	<p>Choose your favourite color</p>
+	<select name="color">
+		<!-- uso value per mandare al posto di red il valore r -->
+		<option value="r">Red</option>
+		<option value="o">Orange</option>
+		<option value="y">Yellow</option>
+	</select>
+
+	<p>Put your resume here</p>
+	<!-- textarea permette di far inserire un testo -->
+	<textarea name="resume" rows="10" cols="10" placeholder="Resume"></textarea>
+
+	<p><button>Go!</button></p>
+	
+
+</form>
+
+
+</body>
+</html>
