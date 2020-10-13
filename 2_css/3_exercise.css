@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+    font-weight: 100;
+    /* cambio il font del testo */
+    /* scelgo il primo, gli altri sono di backup */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-decoration: plum underline wavy;
+    /* metto il testo in uppercase */
+    text-transform: uppercase;
+}

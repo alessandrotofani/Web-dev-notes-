@@ -1,0 +1,81 @@
+/* Universal selector: seleziona tutto */
+* {
+    background-color: pink;
+}
+
+/* element selector */
+button {
+    font-size: 30px;
+}
+
+/* selector list */
+h1, h2 {
+    color:  darkslategray;
+}
+
+/* id selector */
+#search{
+    background-color: red;
+}
+
+/* class selector */
+.tag {
+    background-color: seashell;
+}
+
+/* descendant selector */
+/* seleziono gli anchor tag nested negli span tag */
+footer a {
+    color: royalblue;
+}
+
+/* seleziono gli anchor tag nested negli elementi di classe post */
+.post a {
+    color: aquamarine;
+}
+
+/* Adjacent selector: seleziono i button che sono preceduti da h2 */
+h2 + button{
+    font-size: 20px;
+    background-color: magenta;
+}
+
+/* Direct child: seleziono l'anchor tag che è direct child di un footer */
+footer > a {
+    color: mediumturquoise;
+}
+
+/* Attribute selector: seleziono gli input con tipo password. */
+input[type="password"] {
+    color: orange;
+}
+
+/* seleziono gli anchor tag con attributo che contiene google */
+a[href*="google"] {
+    color: palegoldenrod;
+}
+
+/* seleziono tramite pseudoclasses. */
+.post a:hover {
+    background-color: orange; 
+}
+
+.post button:active{
+    color: red;
+}
+
+/* seleziono un post ogni tre */
+.post:nth-of-type(3n){
+    background-color: sienna;
+}
+
+/* pseudoelements */
+/* selezionola prima lettera degli h2 */
+h2::first-letter{
+    font-size: 50px;
+}
+
+
+
+
+

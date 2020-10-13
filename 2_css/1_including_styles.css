@@ -1,0 +1,16 @@
+h1 {
+    /* fornisco il nome del colore */
+    color: teal;
+    background-color: whitesmoke;
+}
+
+button {
+    /* colore espresso in rgb */
+    color: rgb(89, 151, 0);
+
+}
+
+p {
+    /* colore espresso in esadecimale */
+    color: #91912e;
+}
