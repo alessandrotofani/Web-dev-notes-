@@ -1,0 +1,43 @@
+h1{
+    background-color: salmon;
+    border: 1px solid black;
+    /* cambio il comportamento da block (default) a inline */
+    display: inline;
+}
+
+span{
+    background-color: paleturquoise;
+    border: 1px solid black;
+    display: block;   
+}
+
+div > span{
+    background-color: paleturquoise;
+    border: 1px solid black; 
+    display: inline;
+    margin: 20px;
+    width: 20px;
+    padding: 50px;
+    height: 50px;
+}
+
+.inline{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border: 5px solid black;
+    /* setto l'elemento come inline-block: 
+    width, heigth, margin, padding sono rispettate */
+    display: inline-block;
+    margin: 30px;
+
+}
+
+.none{
+    /* non lo faccio comparire */
+    display: none;
+}
+
+
+
+

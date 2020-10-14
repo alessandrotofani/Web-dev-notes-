@@ -1,0 +1,69 @@
+body{
+    /* levo il margin al border, che c'è di default */
+    margin: 0px;
+}
+
+div{
+    /* posso restringete l'area occupata dal contenuto settando altezza e larghezza */
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+}
+
+h1{
+    background-color: red;
+    width: fit-content;
+    /* aggiungo il padding */
+    padding-left: 20px;
+    padding-top: 30px;
+
+}
+
+#one{
+    background-color: seagreen;
+    /* creo il border */
+    /* devo specificare larghezza, colore e stile */
+    border-width: 5px;
+    border-color: paleturquoise;
+    border-style: solid;
+    /* serve per fare un resizing del border in basea quanto specificato nel div */
+    box-sizing: border-box;
+    /* faccio il bordo stondato */
+    border-radius: 10% / 50%;
+    /* setto il margine */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#two{
+    background-color: peru;
+    /* border */
+    border-width: 5px;
+    border-color: orange;
+    border-style: inset;
+    /* fix border */
+    box-sizing: border-box;
+    /* faccio il bordo circolare */
+    border-radius: 50%;
+
+}
+
+#three{
+    background-color: palegoldenrod;
+    /* posso dichiarare il border anche così  */
+    /* width - color - style */
+    border: 5px inset red;
+    /* setto quanto è stondato */
+    border-radius: 10px;
+}
+
+button{
+    /* li dichiaro in senso orario */
+    /*  top - right - bottom - left */
+    padding: 5px 3px 1px 2px;
+}
+
+
+
+
+
