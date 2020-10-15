@@ -1,0 +1,47 @@
+.circle{
+    width: 300px;
+    height: 300px;
+    background-color: magenta;
+    /* specifico il delay nella transizione specificata */
+    /* transition: background-color 1s 1s; */
+    /* transition: background-color 1s, border radius 1s; */
+    transition: all 1s 1s;
+}
+
+/* transizione avvviene quando ho il mouse sull'oggetto */
+.circle:hover {
+    background-color: cyan;
+    border-radius: 50%;
+}
+
+section div{
+    height: 100px;
+    width: 100px;
+    background-color: turquoise;
+    margin: 20px 0;
+    transition: margin-left 3s;
+}
+
+section:hover div{
+    margin-left: 500px;
+
+}
+
+/*  do una funzione di transizione diversa ad ogni div */
+div:nth-of-type(1){
+    transition-timing-function: ease-in;
+}
+div:nth-of-type(2){
+    transition-timing-function: ease-out;
+}
+div:nth-of-type(3){
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+div:nth-of-type(4){
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+
+
+
+
