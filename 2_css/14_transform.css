@@ -1,0 +1,37 @@
+div{
+    background-color: turquoise;
+    border: black;
+    border-style: solid;
+    color: brown;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    margin: 30px;
+
+}
+/* ruoto l'elemento */
+div:nth-of-type(1){
+    transform: rotate(45deg);
+}
+/* scalo l'elemento */
+div:nth-of-type(2){
+    transform: scale(2);
+}
+/* traslo l'elemento */
+div:nth-of-type(3){
+    transform: translateX(200px);
+}
+/* schiacchio l'elemento */
+div:nth-of-type(3){
+    transform: skew(30deg);
+}
+/* compongo due trasformazioni */
+div:nth-of-type(3){
+    transform: skew(30deg) translate(20px);
+}
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+body{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(7, 7, 58);
+}
+button{
+    background: none;
+    color: rgb(68, 44, 68);
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    /* setto il delay nella transizione */
+    transition: all 0.2s;
+}
+
+button:hover{
+    /* cambio il colore del testo e del pulsante quando ci sono sopra */
+    border-color: salmon;
+    color: white;
+    /* aggiungo l'ombra */
+    box-shadow: 0 0.5em 0.5em -0.4em yellow;
+    /* fa muovere il pulsante verso l'alto */
+    transform: translateY(-0.25em);
+    /* trasforma il cursore nella manina */
+    cursor: pointer;
+}
+
+
+
+
