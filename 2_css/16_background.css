@@ -1,0 +1,31 @@
+section{
+    width: 80%;
+    height: 800px;
+    background-image: url(https://www.cetif.it/wp-content/uploads/2020/04/ai.jpg);    
+    /* setto la taglia dell'immagine, quale parte viene visualizzata */
+    background-size: cover;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 100px;
+    color: white;
+}
+
+div{
+    width: 80%;
+    height: 800px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* posso inserire sia l'immagine sia il colore */
+    background-image: url(https://cdn2.macpaw.com/images/products/cleanmymac-x/macbookpro.png?id=2c5a545caf2eea167177);    
+    background-color: blue;
+    /* setto la taglia dell'immagine, quale parte viene visualizzata */
+    margin: 0 auto;    
+}
+
+
+
+
+

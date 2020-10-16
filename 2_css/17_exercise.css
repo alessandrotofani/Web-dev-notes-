@@ -1,0 +1,14 @@
+img{
+    /* assegno il 30% della larghezza della pagina a ogni immagine */
+    width: 30%; 
+    /* divido lo spazio rimanente per il margine */
+    margin: calc(10%/6);
+}
+
+nav{
+    font-family: 'Sansita Swashed', cursive;    
+    text-transform: uppercase;
+    border-bottom: 2px solid lightcyan;
+    margin-left: 1%;
+    padding-bottom: 1%;
+}
