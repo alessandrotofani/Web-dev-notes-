@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* INIZIO */
+/* setto il background di tutta la pagina */
+/* uso il flexbox per centrare il pannello */
+body{
+    font-family: 'Open Sans', sans-serif;    
+    background-color: lightskyblue;
+    margin: 0 auto;
+    /* allineo gli elementi al centro della pagina */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* container dei vari pricing plan */
+/* uso il flexbox per gestire gli altri elementi (div) */
+.panel-pricing-table{
+    position: center;
+    background-color: white;
+    width: 100%;
+    max-width: 960px;
+    height: 40%;
+    border: 5px solid black;
+    /* border: 5px solid white; */
+    padding: 15px 25px;
+    border-radius: 10px;
+    /* flex options */
+    display: flex;
+    /* specifico il main axis */
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* elementi nel container, sono div */
+.pricing-plan{
+    border-bottom: 1px solid grey;
+}
+
+.pricing-plan:last-child{
+    border-bottom: none;
+}
+
+/* immagini*/
+.pricing-plan img {
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+
+/* opzioni di acquisto */
+h2{
+    color: lightgrey;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* bullet point */
+.pricing-features{
+    margin: 50px 0 25px;
+    color: blue;
+}
+
+.pricing-features-item{
+    /* le rendo bold */
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 1px solid black;
+}
+.pricing-features-item:last-child{
+    border-bottom: 1px solid black;
+}
+
+/* price */
+.pricing-price{
+    color: skyblue;
+    /* bold */
+    font-weight: 600;
+    display: block;
+    /* aumento la grandezza del carattere */
+    font-size: 32px;
+}
+
+/* bottone */
+.pricing-button{
+    /* lo metto como block element ma inline */
+    display: inline-block;
+    border: 2px solid lightskyblue;
+    border-radius: 10px;
+    padding: 15px 35px;
+    margin: 25px 0;
+    color: blue;
+    /* transizione quando ci passa il mouse */
+    transition: background-color 200ms ease-in-out;
+}
+
+/* effetto quando passa il mouse à rimango lì */
+.pricing-button:hover, .pricing-button:focus{
+    background-color: lightskyblue;
+}
+
+.pricing-button.is-featured{
+    background-color: lightskyblue;
+    color: white;
+}
+
+.pricing-button.is-featured:hover, .pricing-button.is-featured:focus{
+    background-color: blue;
+    color: white;
+}
+
+/* media query: specifico cosa succede quando cambia la dimensione dello schermo */
+@media(min-width: 900px){
+    /* allineo gli elementi sulla riga */
+    .panel-pricing-table{
+        flex-direction: row;
+    }
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
+    }
+      .pricing-plan:last-child {
+        border-right: none;
+    }
+}
+
+
+
+
+
+
