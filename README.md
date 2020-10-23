@@ -5,3 +5,5 @@
 [Html notes](https://docs.google.com/document/d/1Q1sFRTaBGfhnxgJjcb87n6XVlB8k0ajncMdP6dJ9Rzs/edit?usp=sharing)
 
 [CSS notes](https://docs.google.com/document/d/1Bca--6RyjUWmDRPW57Oul-V-3CIirOBU80icz94BCKo/edit?usp=sharing)
+
+[Javascript notes](https://docs.google.com/document/d/1KnnkQYAEd7WgWrSyYus982a4E8KmI4UsMUcwVRqODWU/edit?usp=sharing)
