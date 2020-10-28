@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>Score keeper</title>
+
+    <style>
+        .winner{
+            color: green;
+        }
+        .loser{
+            color: red;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div class="container border border-dark">
+
+        <!-- immagine -->
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-fluid" src = "https://m.media-amazon.com/images/I/81DOvJUR33L._AC_SS350_.jpg" alt="Responsive image"></img>
+            </div>
+        </div>    
+
+        <!-- sottotitolo -->
+        <div class="row border-top border-bottom border-dark">
+            <div class="col-xl-4 col-md-6">
+                <p>Score keeper</p>
+            </div>
+        </div>
+        
+        <!-- punteggio -->
+        <div class="row">
+            <div class="col-md-6 col-xl-4"><h4 class="display-4"><span id="punteggio_one">0</span>  to <span id="punteggio_two">0</span> </h4></div>
+            
+        </div>        
+        
+        <!-- selezionatore partite -->
+        <div class="row border-bottom border-dark">
+            <div class="col">
+            
+                <label class="mr-4" for="punteggio_massimo">Si vince a: </label>
+                <input type="number" name="punteggio_massimo" id="punteggio_massimo" placeholder="Punteggio massimo">
+            
+            </div>
+        </div>
+    
+        <!-- pulsanti per aggiornare il punteggio -->
+        <form action="#nowhere">
+            <div class="form-row mt-4">
+                <div class="form-group">
+                    <button type="submit" id="player_one" class="btn btn-success">+1 Player One</button>
+                    <button type="submit" id="player_two" class="btn btn-danger">+1 Player Two</button>
+                    <button type="submit" id="reset" class="btn btn-warning">Reset</button>
+                </div>
+            </div>
+        </form>
+
+
+    </div>
+
+
+
+    <script src="5_scorekeeper_project.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html>
