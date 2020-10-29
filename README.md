@@ -1,9 +1,13 @@
 # Web dev notes
 
-[Shell scripting notes](https://docs.google.com/document/d/1pHHAuB3Cg2oBPRRn-ApqHoM-j1JHbYvEobPXbUTQjaU/edit?usp=sharing) 
+0. [Shell scripting notes](https://docs.google.com/document/d/1pHHAuB3Cg2oBPRRn-ApqHoM-j1JHbYvEobPXbUTQjaU/edit?usp=sharing) 
 
-[Html notes](https://docs.google.com/document/d/1Q1sFRTaBGfhnxgJjcb87n6XVlB8k0ajncMdP6dJ9Rzs/edit?usp=sharing)
+## Front-end
 
-[CSS notes](https://docs.google.com/document/d/1Bca--6RyjUWmDRPW57Oul-V-3CIirOBU80icz94BCKo/edit?usp=sharing)
+1. [Html notes](https://docs.google.com/document/d/1Q1sFRTaBGfhnxgJjcb87n6XVlB8k0ajncMdP6dJ9Rzs/edit?usp=sharing)
 
-[Javascript notes](https://docs.google.com/document/d/1KnnkQYAEd7WgWrSyYus982a4E8KmI4UsMUcwVRqODWU/edit?usp=sharing)
+2. [CSS notes](https://docs.google.com/document/d/1Bca--6RyjUWmDRPW57Oul-V-3CIirOBU80icz94BCKo/edit?usp=sharing)
+
+3. [Javascript notes](https://docs.google.com/document/d/1KnnkQYAEd7WgWrSyYus982a4E8KmI4UsMUcwVRqODWU/edit?usp=sharing)
+
+## Back-end
