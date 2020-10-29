@@ -11,3 +11,7 @@
 3. [Javascript notes](https://docs.google.com/document/d/1KnnkQYAEd7WgWrSyYus982a4E8KmI4UsMUcwVRqODWU/edit?usp=sharing)
 
 ## Back-end
+
+1. [Terminal](https://docs.google.com/document/d/1cZakE3OGzAfHZ8tKw8NzR7LdK3RXfFby2DCUkmSpLyk/edit?usp=sharing)
+
+2. [Node]()
