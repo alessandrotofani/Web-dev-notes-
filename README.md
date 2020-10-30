@@ -14,4 +14,4 @@
 
 1. [Terminal](https://docs.google.com/document/d/1cZakE3OGzAfHZ8tKw8NzR7LdK3RXfFby2DCUkmSpLyk/edit?usp=sharing)
 
-2. [Node]()
+2. [Node](https://docs.google.com/document/d/1uj1zNX923rhSVi0pN53Gsr13nalo4weTY4MqyFmK4Nw/edit?usp=sharing)
