@@ -4,6 +4,9 @@ const express = require('express');
 const app = express();
 // serve per modificare il path di views
 const path = require('path');
+// importo i dati dal file json
+const redditData = require('./data.json')
+// console.log(redditData)
 
 // uso set per usare ejs
 // non serve il require perchè lo richiamo già qui dentro
@@ -22,14 +25,37 @@ app.get('/', (req, res) => {
     res.render('home.ejs')
 })
 
+// si attiva quando cerco cats
+app.get('/cats', (req, res) =>{
+    // creo un vettore i cui oggetti sono stringhe
+    const cats = ['blue', 'rocket', 'monty', 'winston']
+    // passo tale vettore al file cats.ejs (ricorda ejs è sottinteso)
+    res.render('cats', {cats})
+})
+
 
 // si attiva quando c'è un pattern compatibile
 app.get('/r/:subreddit', (req, res) => {
     // prendo l'input dell'utente
     const {subreddit} = req.params
+
+    // estraggo i dati relativi al subreddit che l'utente sta cercando
+    // seleziono i dati tramte la key 
+    const data = redditData[subreddit]
+
+    if(data){    
+        // passo direttamente le feature dell'oggetto già spreadate
+        // vuol dire che posso accedere alle singole feature 
+        res.render('subreddit', {...data})
+    }else{
+        // carico questa pagina nel caso in cui non esista ciò che l'utente cerca
+        res.render('notfound', {subreddit})
+    }
+
     // restituisco il file subreddit.ejs
     // passo la variabile subreddit al file ejs
-    res.render('subreddit', {subreddit})
+    // res.render('subreddit', {subreddit})
+
 })
 
 

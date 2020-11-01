@@ -2,9 +2,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= subreddit %>  </title>
+    <title><%= name %>  </title>
 </head>
 <body>
-    <h1> <%= subreddit %> </h1>
+    <!-- accedo direttamente alle feature dell'oggetto che ho passato -->
+    <h1> Stai visitando il <%= name %> subreddit</h1>
+    <h2><%= description %> </h2>
+    <p><%= subscribers %> total subscribers</p>
+    <hr>
+
+    <!-- creo un loop per poter printare i vari post in modo standard -->
+    <% for(let post of posts){ %> 
+    <div>
+        <!-- printo titolo e autore -->
+        <h3><%= post.title %> of <%= post.author %>  </h3>
+        <!-- printo l'immagine contenuta nel post -->
+        <% if(post.img){ %>
+            <img src="<%= post.img %>" alt=""> 
+        <% } %> 
+    </div>
+    <% } %> 
+
+
+
 </body>
 </html>
