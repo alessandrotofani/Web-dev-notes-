@@ -104,6 +104,16 @@ app.patch('/comments/:id', (req, res) =>{
 })
 
 
+// DELETE REQUEST
+app.delete('/comments/:id', (req,res) =>{
+    // prendo l'id dai parametri della richiesta
+    const {id} = req.params
+    // filtro il commento con l'id selezionato
+    comments = comments.filter(c => c.id !== id)
+    // redirect alla home
+    res.render('/comments')
+})
+
 
 app.get('/tacos', (req, res) =>{
     res.send('GET /tacos response')
